@@ -1,0 +1,8 @@
+1. Vá até o diretório SDK
+Na FIAP: C:\Android_Config\Android\SDK\platform-tools
+Em casa: %LocalAppData%\Android\SDK\platform-tools
+
+cd "caminho_do_diretorio_aqui"
+
+2. Digite o comando:
+.\adb.exe logcat -s Unity PackageManager dalvikvm DEBUG
